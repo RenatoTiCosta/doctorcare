@@ -1,0 +1,15 @@
+/*=============== BACK TO TOP BUTTON =======================*/
+#backToTopButton {
+  position: fixed;
+  bottom: 1rem;
+  right: 2.5rem;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(100%);
+  transition: 200ms;
+}
+#bakToTopButton.show {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
